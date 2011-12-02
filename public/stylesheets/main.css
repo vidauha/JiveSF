@@ -1,5 +1,6 @@
 /* Add a background color for the page */
 body {
+  padding-left:0px;
   color:#BB1111;
   font-size:100%;
 }
@@ -20,6 +21,8 @@ h1.right {
 /* This applies to a *SINGLE* element with id="top_heading" */
 #banner {
   text-align:center;
+  background-image:url('/images/gradient.jpeg');
+  background-repeat:repeat-x;
 }
 
 #logo {
