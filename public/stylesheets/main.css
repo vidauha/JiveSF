@@ -1,0 +1,54 @@
+/* Add a background color for the page */
+body {
+  background:#FFA4A4 url('http://jivesf.runvida.com/images/header.jpg') no-repeat center bottom;
+  color:#B05F3C;
+  font-size:100%;
+}
+
+/* This applies to any HTML h1 tag */
+h1 {
+  color:blue;
+  text-align:center;
+  font-family:"Times New Roman", Times, serif;
+  font-size:2.5em;  /* em is preferred over pixels because of IE */
+}
+
+/* This applies to any h1 tag that has class="right" */
+h1.right {
+  text-align:right;
+}
+
+/* This applies to a *SINGLE* element with id="top_heading" */
+#top_heading {
+  color:purple;	
+  text-align:right;
+}
+
+/* This all elements with class="error" */
+.error {
+  color:red;
+  text-align:left;
+}
+
+.blink {
+  text-decoration:blink;
+}
+
+.shadow {
+  text-shadow:yellow 2px -2px 0px;
+}
+
+/* CSS allows special formatting for links - in that the styling is specific to what STATE the link is in. */
+a:link,a:visited {
+  display:block;
+  font-weight:bold;
+  color:#FFFFFF;
+  background-color:#98bf21;
+  width:120px;
+  text-align:center;
+  padding:4px;
+  text-decoration:none;
+}
+a:hover,a:active {
+  background-color:#7A991A;
+}

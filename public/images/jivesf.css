@@ -1,0 +1,153 @@
+/* Named Element Properties */
+
+body {
+	font-size:100%;
+	color: black;
+	background-color: gray;
+	font-family: "arial", "helvetica";
+}
+
+h1 {
+	margin: 20px;
+	font-size: 16px;
+}
+
+p {
+	margin: 20px;
+	text-indent: 20px;
+}
+
+img { 
+	border: none;
+}
+
+a:link {color: blue;}
+a:visited {color: purple;}
+a:focus {color: green;}
+a:hover {color: green;}
+a:active {color: green;}
+
+/* ID'd Element Properties */
+/* The Main Header */
+#header {
+	height: 200px;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+}
+
+/* The Primary Banner*/
+#banner {
+	height: 37px;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+}
+
+/* The Spefific Page Title Banner */
+img#top_banner {
+	padding: 5px;
+}
+
+/* The Page Contents Column */
+#contents {
+	width: 800px;
+	margin-right:auto;
+	margin-left:auto;
+	background-color: white;
+}
+
+/* The Page Contents Left Column */
+#left_column {
+	width: 400px;
+	text-align: justify;
+	background: white;
+}
+
+td#left_column {
+	vertical-align: top;
+	border: none;
+}
+
+/* The "Picture of the Month" Image Properties */
+#picofmonth {
+	width: 360px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/* The Page Contents Right Column */
+#right_column {
+	width: 400px;
+	text-align: justify;
+	background: white;
+}
+
+td#right_column {
+	vertical-align: top;
+	border: none;
+}
+
+/* The Main Footer */
+#footer {
+	margin-right:auto;
+	margin-left:auto;
+	height: 43px;
+	width: 800px;
+	background-color: white;
+}
+
+/*  Classed Element Properties */
+
+/* A class for paragraphs with no indent. */
+p.noindent {
+	margin: 20px;
+	text-indent: 0px;
+}
+
+/*  */
+td.officer_pic_block {
+	width: 150px;
+	height: 185px;
+	vertical-align: top;
+}
+
+img.officer_pic {
+	width: 150px;
+	height: 185px;
+	vertical-align: top;
+}
+
+td.officer_info_block {
+	width: 240px;
+	height: 185px;
+	vertical-align: top;
+}
+
+li.officer_info_text {
+	vertical-align: top;
+	text-align: left;
+}
+
+img.album_pic {
+	width: 360px;
+	height: 270px;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+img.album_link {
+	border: 3px inset navy;
+	width: 360px;
+	height: 270px;
+	margin-left: 20px;
+	margin-top: 0px;
+	margin-bottom: 10px
+}
+
+
+
+
