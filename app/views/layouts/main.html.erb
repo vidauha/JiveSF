@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JiveSF</title>
+  <%= stylesheet_link_tag :all %>
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+
+<!-- The main logo -->
+<div id="banner">
+	<a href="/"><img src="http://www.logomaker.com/logo-images/1aa061aef795f9af.gif"/></a>
+	<a href="http://www.logoworks.com/website-design.html"><img src="http://www.logomaker.com/images/logos.gif" alt="website design" border="0"/></a>
+	<a href="http://www.facebook.com/groups/255632417809462/">Join us on Facebook!</a>
+</div>
+
+<!-- The navigation bar -->
+<div id="navigation_bar">
+   <a class="menu" href="/officers">Officers</a>
+   <a class="menu" href="/officers">Events</a>
+   <a class="menu" href="/officers">Photos</a>
+</div>
+
+<%= yield %>
+
+</body>
+</html>

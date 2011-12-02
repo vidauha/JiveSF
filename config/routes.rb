@@ -1,4 +1,10 @@
 JiveSF::Application.routes.draw do
+  
+  root :controller => "main", :action => "home"
+  
+  match 'home' => "main#home"
+  match 'officers' => "main#officers"
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -1,7 +1,6 @@
 /* Add a background color for the page */
 body {
-  background:#FFA4A4 url('http://jivesf.runvida.com/images/header.jpg') no-repeat center bottom;
-  color:#B05F3C;
+  color:#BB1111;
   font-size:100%;
 }
 
@@ -19,9 +18,11 @@ h1.right {
 }
 
 /* This applies to a *SINGLE* element with id="top_heading" */
-#top_heading {
-  color:purple;	
-  text-align:right;
+#banner {
+  text-align:center;
+}
+
+#logo {
 }
 
 /* This all elements with class="error" */
@@ -39,16 +40,22 @@ h1.right {
 }
 
 /* CSS allows special formatting for links - in that the styling is specific to what STATE the link is in. */
-a:link,a:visited {
-  display:block;
+#navigation_bar {
+  text-align:center;
+  background-color:#BB1111;
+  padding-top:10px;
+  padding-bottom:10px;
+}	
+	
+a.menu:link,a.menu:visited {
   font-weight:bold;
   color:#FFFFFF;
-  background-color:#98bf21;
+  background-color:#BB1111;
   width:120px;
   text-align:center;
-  padding:4px;
+  padding:10px;
   text-decoration:none;
 }
-a:hover,a:active {
-  background-color:#7A991A;
+a.menu:hover,a.menu:active {
+  background-color:#881111;
 }
