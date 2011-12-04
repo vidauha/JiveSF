@@ -3,6 +3,8 @@ JiveSF::Application.routes.draw do
   root :controller => "main", :action => "home"
   
   match 'home' => "main#home"
+  match 'events' => "main#events"
+  match 'photos' => "main#photos"
   match 'officers' => "main#officers"
   
   # The priority is based upon order of creation:

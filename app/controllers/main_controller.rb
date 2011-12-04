@@ -6,4 +6,10 @@ class MainController < ApplicationController
   def officers
   end
 
+  def events
+  end
+  
+  def photos
+  end
+
 end

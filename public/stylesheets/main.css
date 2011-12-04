@@ -18,11 +18,15 @@ h1.right {
   text-align:right;
 }
 
+hr {
+	
+}
+
 /* This applies to a *SINGLE* element with id="top_heading" */
 #banner {
-  text-align:center;
-  background-image:url('/images/gradient.jpeg');
-  background-repeat:repeat-x;
+  text-align:left;
+  padding-left:10%;
+  background-color:#BB1111;
 }
 
 #logo {
@@ -44,21 +48,39 @@ h1.right {
 
 /* CSS allows special formatting for links - in that the styling is specific to what STATE the link is in. */
 #navigation_bar {
+  display:block;
   text-align:center;
   background-color:#BB1111;
   padding-top:10px;
   padding-bottom:10px;
-}	
-	
+}
+
+.navigation_item {
+  background-color:#BB1111;
+}
+
+#find_on_facebook {
+  text-align:right;
+  padding-top:0px;
+  padding-bottom:0px;
+}
+
 a.menu:link,a.menu:visited {
   font-weight:bold;
   color:#FFFFFF;
   background-color:#BB1111;
   width:120px;
   text-align:center;
-  padding:10px;
   text-decoration:none;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:10px;
+  padding-bottom:10px;
 }
 a.menu:hover,a.menu:active {
   background-color:#881111;
+}
+
+#main {
+  text-alight:center;
 }

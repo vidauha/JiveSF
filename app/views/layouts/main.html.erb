@@ -10,19 +10,31 @@
 
 <!-- The main logo -->
 <div id="banner">
-	<a href="/"><img src="http://www.logomaker.com/logo-images/1aa061aef795f9af.gif"/></a>
-	<a href="http://www.logoworks.com/website-design.html"><img src="http://www.logomaker.com/images/logos.gif" alt="website design" border="0"/></a>
-	<a href="http://www.facebook.com/groups/255632417809462/"><img src="/images/find_on_facebook.png"</a>
+	<a href="/"> <img src="http://www.logomaker.com/logo-images/3d69c65bd1f7772b.gif"/> </a>
+	<a href="http://www.logoworks.com/website-design.html">
+			<img src="http://www.logomaker.com/images/logos.gif" alt="website design" border="0"/>
+	</a>
 </div>
+
+<hr/>
 
 <!-- The navigation bar -->
 <div id="navigation_bar">
-   <a class="menu" href="/officers">Officers</a>
-   <a class="menu" href="/officers">Events</a>
-   <a class="menu" href="/officers">Photos</a>
+	<span class="navigation_item"><a class="menu" href="/home">HOME</a></span>
+	<span class="navigation_item"><a class="menu" href="/events">EVENTS</a></span>
+	<span class="navigation_item"><a class="menu" href="/photos">PHOTOS</a></span>
+	<span class="navigation_item"><a class="menu" href="/officers">OFFICERS</a></span>
 </div>
 
+<div id="find_on_facebook">
+<a target="_blank" href="http://www.facebook.com/groups/255632417809462/">
+	 <img src="/images/find_on_facebook.png"/>
+</a>
+</div>
+
+<div id="main">
 <%= yield %>
+</div>
 
 </body>
 </html>
