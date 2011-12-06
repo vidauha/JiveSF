@@ -27,7 +27,7 @@ hr {
   text-align:left;
   padding-left:10%;
   /* #background-color:#BB1111; */
-  background-image: -webkit-linear-gradient(135deg, white, #BB1111);
+  background-image: -webkit-linear-gradient(135deg, #FF9999, #BB1111);
 }
 
 #logo {
@@ -51,7 +51,7 @@ hr {
 #navigation_bar {
   display:block;
   text-align:center;
-  background-image: -webkit-linear-gradient(135deg, white, #BB1111);
+  background-image: -webkit-linear-gradient(135deg, #FF9999, #BB1111);
   padding-top:10px;
   padding-bottom:10px;
 }
